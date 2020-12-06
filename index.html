@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Kamala Zeynalli">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <div class="form-login">
+        <div class="form">
+
+            <form id="register">
+                <label for="fname"> <b>USERNAME</b></label><br>
+                <input type="text" placeholder="John"><br>
+                <label for="fname"> <b>EMAIL</b></label><br>
+                <input type="text" placeholder="johndohn@gmail.com"><br>
+                <label for="fname"> <b>PASSWORD</b></label><br>
+                <input type="password" placeholder="password"><br><br>
+
+                <button class="action"> LOGIN</button>
+                <br> <br>
+                
+                <p class="message"> Already Registered? <button class="form-button" onclick="loginfunc()">Login </button> </p>
+
+            </form>
+
+            <form class="login-form" id="login">
+                <input type="text" placeholder="username" />
+                <input type="password" placeholder="password" />
+                <button class="action"> LOGIN</button>
+                <p class="message">
+                    Not Registered? <button class="form-button" onclick="regfunc()">Register </button>
+                </p>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="./style/main.js"> </script>
+</body>
+
+</html>
