@@ -22,21 +22,25 @@
                 <label for="fname"> <b>PASSWORD</b></label><br>
                 <input type="password" placeholder="password"><br><br>
 
-                <button class="action"> LOGIN</button>
+                <button class="action login1"> LOGIN</button>
                 <br> <br>
                 
-                <p class="message"> Already Registered? <button class="form-button" onclick="loginfunc()">Login </button> </p>
-
-            </form>
+                 </form>
+               <p class="message" id="login-out"> Already Registered? 
+<button class="button" onclick="loginfunc(loginfunc)">Login </button> </p> 
+               
+            
 
             <form class="login-form" id="login">
                 <input type="text" placeholder="username" />
                 <input type="password" placeholder="password" />
-                <button class="action"> LOGIN</button>
-                <p class="message">
-                    Not Registered? <button class="form-button" onclick="regfunc()">Register </button>
-                </p>
-            </form>
+                <button class="action"> LOGIN</button></form>
+                <p class="message" id="register-out"style="display: none;">
+                    Not Registered?
+                    <button  class="button"   onclick="regfunc()"> Register </button> 
+                </p> 
+                
+           
         </div>
     </div>
 

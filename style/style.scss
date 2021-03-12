@@ -73,3 +73,17 @@ font-size: 16px;
 .login-form{
     display: none;
 }
+
+.button { background-color: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: underline;
+    &:hover{
+        
+        opacity: 0.9;
+
+    }
+
+
+}

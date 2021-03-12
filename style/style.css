@@ -79,4 +79,16 @@ body {
 .login-form {
   display: none;
 }
+
+.button {
+  background-color: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
 /*# sourceMappingURL=style.css.map */
